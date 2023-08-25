@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
 
 :root {
@@ -76,7 +75,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    background-image: url(vinyl_record-Music_HD_Wallpaper_1920x1080.jpg);
+    background-image: url(photo-1579546929518-9e396f3cc809.jpeg);
     height: 600px;
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
 
@@ -84,14 +83,16 @@ body {
     font-size: 95px;
     color: var(--cor-secundaria);
 
-    background-position: top;
+    background-position: center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     
 }
 
 .apresentacao__titulo {
-    background-color: rgba(0, 0, 0, 0.336);
+    background-color: rgba(0, 0, 0, 0.137);
     border-radius: 7px;
 
 }
