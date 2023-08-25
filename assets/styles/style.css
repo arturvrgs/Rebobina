@@ -73,8 +73,11 @@ main {
   align-items: center;
   justify-content: center;
 
-  background-image: url(IMG_Background_Genre_2000x.png);
-  background-position: bottom;
+  background-image: url(https://img.freepik.com/free-photo/out-focus-colorful-bokeh-neon-lights_23-2148328121.jpg?w=740&t=st=1693007038~exp=1693007638~hmac=bbd40a57bfdd228b45327df1f8ed45a10eae58cc2963f4a7964c664d885077d6);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 
   box-shadow: inset 0px 0px 4px 4px rgba(0, 0, 0, 0.13);
   height: 420px;
