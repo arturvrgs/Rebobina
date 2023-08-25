@@ -88,12 +88,21 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 
+
     
 }
 
 .apresentacao__titulo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.137);
     border-radius: 7px;
+
+    width: 95vw;
+    text-align: center;
+    
 
 }
 
