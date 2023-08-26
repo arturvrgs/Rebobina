@@ -227,6 +227,8 @@ main {
   color: var(--cor-primaria);
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
+
+  box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.26);
 }
 
 .rodape__caixa {
@@ -256,4 +258,10 @@ main {
 
 .rodape__redes__redes a:hover {
   filter: brightness(80%);
+}
+
+@media screen and (max-width: 1360px) and (max-height: 768px) {
+  #harry {
+    display: none;
+  }
 }
