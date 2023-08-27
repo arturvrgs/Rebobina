@@ -287,15 +287,40 @@ main {
 
 .novidade h1 {
   color: rgba(77, 21, 154, 1) 100%;
-  font-family: "Passion One", cursive;
-  font-size: 150px;
+  font-family: "Montserrat", cursive;
+  font-weight: 800;
+  font-size: 120px;
   margin-top: -40px;
   margin-bottom: 20px;
+
 }
 
 .novidade__caixa__item a:hover {
   transform: scale(1.05);
   filter: brightness(90%);
+}
+
+.titulo__caixa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 55px;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--cor-primaria);
+
+}
+
+.titulo__caixa__item {
+  text-align: center;
+
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.26);
+
+  border-radius: 4px;
 }
 
 .rodape {
