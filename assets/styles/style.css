@@ -8,10 +8,12 @@
 
 html {
   scroll-behavior: smooth;
+  width: 100vw;
 }
 
 body {
   background-color: #f5f5f5;
+  
 }
 
 .cabecalho {
@@ -21,7 +23,14 @@ body {
 
   background-color: var(--cor-primaria);
   height: 83px;
-  width: 98vw;
+  width: 100vw;
+
+  position: fixed;
+  z-index: 1;
+}
+
+#menu {
+  display: none;
 }
 
 .cabecalho .link {
@@ -85,7 +94,7 @@ main {
   background-size: cover;
 
   box-shadow: inset 0px 0px 4px 4px rgba(0, 0, 0, 0.13);
-  height: 420px;
+  height: 490px;
   margin-bottom: 50px;
 }
 
@@ -98,6 +107,8 @@ main {
   height: 100%;
   width: 50%;
   gap: 30px;
+
+  margin-top: 83px;
 }
 .coluna__titulo {
   color: var(--cor-secundaria);
@@ -205,6 +216,10 @@ main {
   font-weight: 100;
 }
 
+.item__imagem {
+  height: 460px;
+}
+
 .item__botao {
   color: var(--cor-primaria);
   margin-top: 40px;
@@ -265,6 +280,7 @@ main {
 .novidade__caixa__item img {
   filter: drop-shadow(0 0 20px #12121269);
   transition: all 0.1s ease-in-out;
+
 }
 
 .novidade__caixa__item img:hover {
@@ -309,9 +325,9 @@ main {
   align-items: center;
   gap: 55px;
 
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  font-weight: 600;
+  font-family: 'Oswald', sans-serif;
+  font-size: 35px;
+  font-weight: 800;
   color: var(--cor-primaria);
 
 }
@@ -319,7 +335,7 @@ main {
 .titulo__caixa__item {
   text-align: center;
 
-  padding: 20px;
+  padding: 10px;
   background-color: rgba(0, 0, 0, 0.26);
 
   border-radius: 4px;
@@ -368,8 +384,40 @@ main {
   filter: brightness(80%);
 }
 
+.direitos {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+
+  background-color: #02658C;
+  color: var(--cor-primaria);
+}
+
+.direitos p {
+  padding: 10px;
+}
 @media screen and (max-width: 1360px) and (max-height: 768px) {
   #harry {
     display: none;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  .cabecalho__nav, .cabecalho__logo{
+    display: none;
+    
+  }
+
+  #menu {
+    display: block;
+    font-size: 32px;
+  }
+
+  .genero {
+    display: none;
+  }
+
+  .item__imagem {
+    height: 200px;
   }
 }
