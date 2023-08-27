@@ -1,10 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Roboto:ital,wght@1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Passion+One:wght@700&family=Roboto:ital,wght@1,900&display=swap");
 
 :root {
   --cor-primaria: #f5f5f5;
   --cor-secundaria: #022e40;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #f5f5f5;
 }
@@ -154,6 +159,8 @@ main {
 .populares {
   display: flex;
   flex-direction: column;
+
+  margin-bottom: 100px;
 }
 
 .populares__titulo {
@@ -162,7 +169,6 @@ main {
   font-weight: 900;
   font-size: 30px;
   margin-left: 167px;
-  margin-bottom: 30px;
   text-decoration: underline;
 }
 
@@ -221,6 +227,74 @@ main {
 .populares__caixa__item img:hover {
   filter: drop-shadow(0 0 20px #121212);
   transform: scale(1.1);
+}
+
+.novidade {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background: linear-gradient(
+    90deg,
+    rgba(191, 167, 242, 1) 0%,
+    rgba(157, 73, 242, 1) 27%,
+    rgba(128, 46, 242, 1) 47%,
+    rgba(77, 21, 154, 1) 100%
+  );
+  height: 600px;
+
+  box-shadow: inset 0px 0px 4px 4px rgba(0, 0, 0, 0.13);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.novidade__caixa {
+  display: flex;
+  flex-direction: column;
+}
+
+.novidade__caixa__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+}
+
+.novidade__caixa__item img {
+  filter: drop-shadow(0 0 20px #12121269);
+  transition: all 0.1s ease-in-out;
+}
+
+.novidade__caixa__item img:hover {
+  filter: drop-shadow(0 0 20px #121212);
+  transform: scale(1.1);
+}
+
+.novidade__caixa__item a {
+  color: var(--cor-primaria);
+  background-color: #100f40;
+  margin-top: -40px;
+  padding: 20px;
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+
+  font-family: "Montserrat", sans-serif;
+  width: 50%;
+  text-align: center;
+  font-weight: 700;
+}
+
+.novidade h1 {
+  color: rgba(77, 21, 154, 1) 100%;
+  font-family: "Passion One", cursive;
+  font-size: 150px;
+  margin-top: -40px;
+  margin-bottom: 20px;
+}
+
+.novidade__caixa__item a:hover {
+  transform: scale(1.05);
+  filter: brightness(90%);
 }
 
 .rodape {
