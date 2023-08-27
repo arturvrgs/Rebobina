@@ -274,7 +274,7 @@ main {
   color: var(--cor-primaria);
   background-color: #100f40;
   
-  margin-bottom: ;
+  margin-bottom: 50px;
   padding: 20px;
   text-decoration: none;
   transition: all 0.1s ease-in-out;
