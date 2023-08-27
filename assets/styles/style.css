@@ -273,7 +273,8 @@ main {
 .novidade__caixa__item a {
   color: var(--cor-primaria);
   background-color: #100f40;
-  margin-top: -40px;
+  
+  margin-bottom: ;
   padding: 20px;
   text-decoration: none;
   transition: all 0.1s ease-in-out;
