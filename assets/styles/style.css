@@ -231,8 +231,9 @@ main {
 
 .novidade {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  gap: 50px;
 
   background: linear-gradient(
     90deg,
@@ -251,6 +252,7 @@ main {
 .novidade__caixa {
   display: flex;
   flex-direction: column;
+
 }
 
 .novidade__caixa__item {
