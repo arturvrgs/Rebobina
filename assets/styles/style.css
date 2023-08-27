@@ -281,6 +281,7 @@ main {
   filter: drop-shadow(0 0 20px #12121269);
   transition: all 0.1s ease-in-out;
 
+  height: 460px;
 }
 
 .novidade__caixa__item img:hover {
