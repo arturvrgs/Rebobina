@@ -406,6 +406,40 @@ main {
 }
 
 @media only screen and (max-width: 480px) {
+
+  .novidade {
+    flex-direction: column;
+  }
+
+  .novidade img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .novidade a {
+    width: 200px;
+  }
+
+  .titulo__caixa {
+    gap: 0;
+  }
+
+  .titulo__caixa h1{
+    margin-top: 60px;
+    font-size: 60px;
+  }
+
+  .titulo__caixa__item h2, .titulo__caixa__item p {
+    font-size: 20px;
+  }
+
+  .item__titulo {
+    width: 200px;
+  }
+
+  .precos {
+    width: 200px;
+  }
   .cabecalho__nav, .cabecalho__logo{
     display: none;
     
@@ -421,11 +455,37 @@ main {
     height: 200px;
   }
   
+  .populares__titulo {
+    margin-left: 0;
+    text-align: center;
+  }
+  .item__botao {
+    width: 200px;
+    text-align: center;
+  }
   .genero {
     height: 1000px;
   }
 
   .coluna__links {
+    flex-direction: column;
+    
+  }
+  #phone {
+    display: none;
+  }
+
+  .rodape__logo {
+    display: none;
+  }
+
+  .rodape__redes__redes {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rodape__caixa {
     flex-direction: column;
   }
 }
