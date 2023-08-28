@@ -409,6 +409,8 @@ main {
 
   .novidade {
     flex-direction: column;
+    justify-content: center;
+    gap: 1px;
   }
 
   .novidade img {
