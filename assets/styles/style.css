@@ -488,4 +488,9 @@ main {
   .rodape__caixa {
     flex-direction: column;
   }
+
+  .cabecalho {
+    position: static;
+  
+  }
 }
