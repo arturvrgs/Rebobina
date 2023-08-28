@@ -13,7 +13,7 @@ html {
 
 body {
   background-color: #f5f5f5;
-  
+  overflow-x: hidden;
 }
 
 .cabecalho {
@@ -95,6 +95,7 @@ main {
 
   box-shadow: inset 0px 0px 4px 4px rgba(0, 0, 0, 0.13);
   height: 490px;
+
   margin-bottom: 50px;
 }
 
@@ -396,6 +397,7 @@ main {
 .direitos p {
   padding: 10px;
 }
+
 @media screen and (max-width: 1360px) and (max-height: 768px) {
   #harry {
     display: none;
@@ -414,11 +416,16 @@ main {
     font-size: 32px;
   }
 
-  .genero {
-    display: none;
-  }
 
   .item__imagem {
     height: 200px;
+  }
+  
+  .genero {
+    height: 1000px;
+  }
+
+  .coluna__links {
+    flex-direction: column;
   }
 }
